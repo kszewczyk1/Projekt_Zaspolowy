@@ -23,13 +23,13 @@
 		
 
 		<ul>
-			<li class="category">Website</li>
+			<li class="category">Strona</li>
 			<li><%= link_to "Blog", root_path %></li>
 			<li><%= link_to "O stronie", about_path %></li>
 		</ul>
 
 		<ul>
-			<li class="category">Social</li>
+			<li class="category">Społeczności</li>
 			<li><a href="https://github.com/kszewczyk1">Github</a></li>
 		</ul>
 
@@ -39,11 +39,11 @@
 	<div id="main_content">
 		<div id="header">
 			<% if current_page?(root_path) %>
-				<p>All Posts</p>
+				<p>Wszystkie posty</p>
 			<% elsif current_page?(about_path) %>
-				<p>About</p>
+				<p>O stronie</p>
 			<% else %>
-				<%= link_to "Back to All Posts", root_path %>
+				<%= link_to "Powrót do wszystkich postów", root_path %>
 			<% end %>
 			
 			<% if !user_signed_in? %>
