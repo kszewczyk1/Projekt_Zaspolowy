@@ -1,6 +1,6 @@
-###Projekt zespołowy
+#Projekt zespołowy
 ## Nazwa grupy: KSTCR
-# Nazwa projektu: BLOG
+### Nazwa projektu: BLOG
 Grupa: Krystian Szewczyk, Dawid Szczutkowski, Łukasz Tarnowski, Łukasz Zawistowski
 
 Projkt to blog, na którym można zamieszczać posty i je komentować.
