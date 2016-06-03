@@ -6,9 +6,9 @@
 	</div>
 
 	<% if user_signed_in? %>
-	<p><%= link_to 'Delete', [comment.post, comment],
+	<p><%= link_to 'Usuń', [comment.post, comment],
 								  method: :delete,
 								  class: "button",
-								 	data: { confirm: 'Are you sure?' } %></p>
+								 	data: { confirm: 'Jesteś pewien?' } %></p>
  	<% end %>
 </div>
